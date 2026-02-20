@@ -45,7 +45,7 @@ class WeatherApp:
     def create_widgets(self):
         title_label = tk.Label(
             self.root,
-            text="☀️ Погодное приложение ☀️",
+            text=" Погодное приложение ",
             font=("Arial", 18, "bold"),
             fg="#2c3e50"
         )
@@ -292,4 +292,5 @@ if __name__ == "__main__":
         print(f"Ошибка: {e}")
         print("Убедитесь, что установлены необходимые библиотеки:")
         print("pip install Pillow")
+
         input("Нажмите Enter для выхода...")

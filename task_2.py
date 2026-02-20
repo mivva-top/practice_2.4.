@@ -37,7 +37,7 @@ class AnimalImagesApp:
 
         self.cat_button = tk.Button(
             button_frame,
-            text="🐱 Получить кота",
+            text=" Получить кота",
             font=("Arial", 14, "bold"),
             bg="#e67e22",
             fg="white",
@@ -50,7 +50,7 @@ class AnimalImagesApp:
 
         self.dog_button = tk.Button(
             button_frame,
-            text="🐶 Получить собаку",
+            text=" Получить собаку",
             font=("Arial", 14, "bold"),
             bg="#3498db",
             fg="white",
@@ -225,4 +225,5 @@ if __name__ == "__main__":
     except ImportError:
         print("Ошибка: Необходимо установить библиотеку Pillow")
         print("Установите её командой: pip install Pillow")
+
         input("Нажмите Enter для выхода...")
